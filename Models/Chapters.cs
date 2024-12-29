@@ -11,7 +11,5 @@ namespace TechGuide.Models
         public string? ChapterName { get; set; }
         [StringLength(255)]
         public string? ChapterVideo { get; set; }
-        [NotMapped]
-        public IFormFile? VideoFile { get; set; }
     }
 }
